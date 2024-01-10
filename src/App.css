@@ -1,0 +1,441 @@
+/* pseudo class for white and black color */
+:root {
+    --white: white;
+    --black: black;
+}
+
+.portfolio-app {
+    background-color: var(--black);
+    font-family: 'Newsreader', sans-serif;
+    display: flex;
+
+}
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+
+
+/* makes scrolling smooth in entire page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* main content */
+/* sets main background color and font family */
+body {
+    background-color: var(--black);
+    font-family: 'Newsreader', sans-serif;
+
+}
+
+/* makes the top header section flex to control layout */
+.header {
+    display: flex;
+}
+
+/* separates left section of main  */
+.left-section-main {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--white);
+}
+
+/* adds styles to headshot image */
+.head-shot {
+    height: 280px;
+    width: 280px;
+    margin: 50px auto 30px auto;
+    filter: grayscale(75%);
+    border-radius: 100px;
+    box-shadow: -1px 0 50px rgb(101, 101, 101);
+}
+
+/* styles h1 and adds text shadow*/
+h1 {
+    font-size: 9.2vw;
+    text-align: center;
+    margin: 30px 60px;
+    font-weight: 200;
+    text-shadow: 0 0 10px var(--white);
+}
+
+/* styles words under Luis Mansilla on main */
+.main-description {
+    font-size: 24px;
+    margin: 0px auto 60px auto;
+    text-align: center;
+    line-height: 39px;
+}
+
+.main-p {
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    font-size: 2.5vw;
+    
+}
+
+/* separates right section of main */
+.right-section-main {
+    width: 50%;
+    display: flex;
+}
+
+/* centers nav */
+.main-nav {
+    margin: 0 auto;
+}
+
+/* changes nav link direction to column using flex */
+.main-links {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.main-links li{
+    margin: 0 auto;
+}
+
+/* styles main nav buttons with linear gradient */
+.main-button {
+    margin: 0px 20px;
+    opacity: 0.6;
+    background: linear-gradient(rgb(58, 56, 56), rgb(115, 111, 111));
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    font-size: 2vw;
+    color: var(--white);
+}
+
+/* makes nav buttons move up and adds a box shadow when its hovered over */
+.main-button:hover {
+    box-shadow: -1px 0 50px var(--white);
+    opacity: 100;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: .5s ease-in-out;
+}
+
+/* moves nav buttons when they're clicked */
+.main-button:active {
+    transform: translateY(5px);
+    transition: .1s;
+}
+
+/* displays flex in about me container */
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 7vw;
+    color: var(--white);
+    text-align: center;
+    margin: 36px auto;
+    width: 100%;
+}
+
+/* centers paragraph in about me section and defines line height */
+.about-me-p {
+    color: var(--white);
+    font-size: 1.8vw;
+    text-align: center;
+    line-height: 50px;
+    margin: 40px 280px 86px 280px;
+}
+
+/* hides about me anchor point */
+#about-me {
+    color: var(--black);
+    font-size: 1px;
+}
+
+/* UT and edX logos */
+.edx-logo {
+    height: 100px;
+    width: 25%;
+    margin: 37px 0px 40px 183px;
+}
+
+.ut-logo {
+    height: 126px;
+    width: 40%;
+    margin: 20px 20px 20px 0px;
+}
+
+
+#contact-anchor {
+    height: 5rem;
+}
+
+.contact-h2 {
+    height: 97px;
+    width: 100%;
+    margin: 45px 0;
+}
+
+/* sets rules for social media icons and makes the section display flex */
+.main-icon-container {
+    display: flex;
+    justify-content: space-around;
+    height: 38rem;
+}
+
+/* gives the globe icon its own container */
+.contact-globe-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: -1;
+    align-content: center;
+    width: 10%
+}
+
+/* used invert to invert colors in icon */
+.contact-globe-img {
+    filter: invert();
+    width: 60%;
+    margin: 2rem auto;
+}
+
+/* makes logos invert colors to fit background color */
+.contact-icon-img {
+    filter: invert();
+}
+
+/* places a shadow on the icons during mouse hover */
+.contact-icon-img:hover {
+    box-shadow: 0 0 25px var(--black);
+}
+
+.top-a {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    margin: 115px auto;
+    font-size: 1.5vw;
+}
+
+/* adds shadow to the header text for projects */
+.projects-container h2{
+    margin: 32px auto;
+    text-shadow: 0 0 5px var(--black);
+}
+
+/* changes background color or projects section */
+.projects-container {
+    background: rgba(169, 163, 163, 0.647);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* makes first project bigger than the rest */
+.big-project {
+    width: 80%;
+    margin: 1rem auto 0;
+}
+
+/* makes small project links fit 2 per row */
+.small-project {
+    width: 36%;
+    margin: 0;
+}
+
+/* positions the small labels to match the big project label */
+.small-label{
+    top: -11vw;
+}
+
+.projects-h2 {
+    color: var(--white);
+}
+
+/* places a label over the project screenshots */
+h3 {
+    background: var(--white);
+    text-align: center;
+    position: relative;
+    top: -26vw;
+    color: var(--white);
+    padding: 2px 0; 
+    text-shadow: 0 0 20px var(--black);
+    font-size: 3.3vw;
+}
+
+/* styles project screenshots making them black and white before hover */
+.project-img {
+    width: 100%;
+    height: 75%;
+    border-radius: 18px;
+    filter: grayscale(60%);
+    border: 2px solid rgb(190, 184, 184);
+    box-shadow: 5px 5px 25px rgb(42, 42, 42);
+}
+
+/* makes images and labels turn to color and scale up when hovered over */
+.project-img:hover, h3:hover {
+    filter: none;
+    scale: 1.1;
+    border: none;
+
+}
+
+.projects-top-a {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    margin: 60px auto;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+
+    .header {
+        flex-wrap: wrap;
+    }
+
+    /* makes left section take up entire width */
+    .left-section-main {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        margin: 0 auto;
+    }
+
+    .head-shot {
+        margin: 45px auto;
+    }
+
+    .right-section-main {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    /* places links at bottom of page and distributes them in a row */
+    .main-links {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /* makes nav take up entire width */
+    .main-nav {
+        width: 100%;
+    }
+
+    .main-links li {
+        width: 25%;
+    }
+
+    /* sizes buttons */
+    .main-button {
+        width: 100%;
+        margin: 0 auto;
+        height: 11vw;
+    }
+
+    .about-me-p {
+        margin: 40px 25px 75px 25px;
+    }
+
+    .contact-container {
+        margin: 0;
+    }
+
+    .top-a {
+        color: var(--white);
+        margin: 50px auto;
+    }
+}
+
+/* media queries for mobile */
+@media screen and (max-width: 768px) {
+
+/* resizes headshot */
+        .head-shot {
+            height: 236px;
+            width: 43%;
+        }
+
+/* adjusts font sizes on mobile */
+    h1 {
+        font-size: 18.2vw;
+    }
+
+    .main-p {
+        font-size: 5.5vw;
+    }
+
+    /* resize buttons on main */
+    .main-button {
+        height: 20vw;
+        font-size: 6vw;
+    }
+
+    .main-links li {
+        width: 30%;
+    }
+
+/* re distributes space for logo to move to the left */
+    .edx-logo {
+        width: 21%;
+        height: 11vw;
+        margin: 0;
+    }
+/* places ut logo next to ed x evenly */
+    .ut-logo {
+        width: 79%;
+        height: 11vw;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 12vw;
+    }
+
+/* uses typography to change line height and font size for better display on mobile */
+    .about-me-p {
+        font-size: 3.8vw;
+        line-height: 4vh;
+    }
+
+/* takes away height to bring header closer to contact icons */
+    .contact-h2 {
+        height: 0;
+    }
+
+    /* hides the globe icon during mobile display to make room for social media icons */
+    .contact-globe-img {
+        display: none;
+    }
+
+/* centers the icons on the mobile screen */
+    .main-icon-container {
+        justify-content: space-evenly;
+    }
+
+    .contact-social-container {
+        width: 18vw;
+    }
+}
