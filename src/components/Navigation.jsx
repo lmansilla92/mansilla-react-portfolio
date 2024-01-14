@@ -19,7 +19,9 @@ function Navigation () {
                     </Link>
                 </li>
                 <li>
-                    <a href="#contact-anchor"><button className="main-button">Let's Connect</button></a>
+                    <Link to='/contact' className='main-button'>
+                        Contact
+                    </Link>
                 </li>
                 <li>
                     <a href="#projects-anchor"><button className="main-button">Projects</button></a>

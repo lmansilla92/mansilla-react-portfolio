@@ -8,7 +8,7 @@ import './App.css'
 
 import App from './App.jsx';
 import About from './pages/About';
-// import Contact from './pages/Contact';
+import Contact from './pages/Contact';
 import Error from './pages/Error';
 import Home from './pages/Home';
 // import Projects from './pages/Projects';
@@ -28,10 +28,10 @@ const router = createBrowserRouter([
                 path: '/About',
                 element: <About />,
             },
-            // {
-            //     path: '/Contact',
-            //     element: <Contact />,
-            // },
+            {
+                path: '/Contact',
+                element: <Contact />,
+            },
             // {
             //     path: '/Projects',
             //     element: <Projects />,
