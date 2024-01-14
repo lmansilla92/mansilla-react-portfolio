@@ -19,6 +19,16 @@
 /*  */
 /*  */
 
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons {
+    width: 4vw;
+    margin: 0 2vw
+}
+
 .contact-container {
     display: flex;
 }
@@ -57,6 +67,7 @@ body {
 /* makes the top header section flex to control layout */
 .header {
     display: flex;
+    justify-content: center;
 }
 
 /* separates left section of main  */
@@ -68,8 +79,8 @@ body {
 
 /* adds styles to headshot image */
 .head-shot {
-    height: 65vh;
-    width: 31vw;
+    height: 58vh;
+    width: 25vw;
     margin: 100px 100px;
     filter: grayscale(10%);
     border-radius: 100px;
@@ -78,7 +89,7 @@ body {
 
 /* styles h1 and adds text shadow*/
 h1 {
-    font-size: 9.2vw;
+    font-size: 6.2vw;
     text-align: center;
     margin: 10vh 60px;
     font-weight: 200;
@@ -183,7 +194,7 @@ h2 {
     font-size: 1.8vw;
     text-align: center;
     line-height: 50px;
-    margin: 6vh 13vw;
+    margin: 4vh 13vw;
 }
 
 /* hides about me anchor point */
