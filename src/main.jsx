@@ -4,15 +4,21 @@ import ReactDOM from 'react-dom/client'
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import App from './App.jsx'
-import './index.css'
+import './App.css'
+
+import App from './App.jsx';
+import About from './pages/About';
+// import Contact from './pages/Contact';
+import Error from './pages/Error';
+import Home from './pages/Home';
+// import Projects from './pages/Projects';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
     {
         path: '/',
         element: <App />,
-        errorElement: <Erorr />,
+        errorElement: <Error />,
         children: [
             {
                 index: true,
@@ -22,14 +28,14 @@ const router = createBrowserRouter([
                 path: '/About',
                 element: <About />,
             },
-            {
-                path: '/Contact',
-                element: <Contact />,
-            },
-            {
-                path: '/Projects',
-                element: <Projects />,
-            }
+            // {
+            //     path: '/Contact',
+            //     element: <Contact />,
+            // },
+            // {
+            //     path: '/Projects',
+            //     element: <Projects />,
+            // }
         ]
     }
 ])

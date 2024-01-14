@@ -4,12 +4,12 @@
     --black: black;
 }
 
-.portfolio-app {
+/* .portfolio-app {
     background-color: var(--black);
     font-family: 'Newsreader', sans-serif;
     display: flex;
 
-}
+} */
 
 
 
@@ -45,15 +45,14 @@ body {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    color: var(--white);
 }
 
 /* adds styles to headshot image */
 .head-shot {
-    height: 280px;
-    width: 280px;
-    margin: 50px auto 30px auto;
-    filter: grayscale(75%);
+    height: 65vh;
+    width: 31vw;
+    margin: 100px 100px;
+    filter: grayscale(10%);
     border-radius: 100px;
     box-shadow: -1px 0 50px rgb(101, 101, 101);
 }
@@ -62,7 +61,7 @@ body {
 h1 {
     font-size: 9.2vw;
     text-align: center;
-    margin: 30px 60px;
+    margin: 10vh 60px;
     font-weight: 200;
     text-shadow: 0 0 10px var(--white);
 }
@@ -87,6 +86,8 @@ h1 {
 .right-section-main {
     width: 50%;
     display: flex;
+    flex-direction: column;
+    color: var(--white);
 }
 
 /* centers nav */
@@ -113,7 +114,19 @@ h1 {
     border: 1px solid var(--black);
     border-radius: 15px;
     font-size: 2vw;
+    padding: 10px;
     color: var(--white);
+    text-decoration: none;
+}
+
+.active {
+    box-shadow: -1px 0 50px var(--white);
+    opacity: 100;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: .5s ease-in-out;
+    transform: translateY(5px);
+    transition: .1s;
 }
 
 /* makes nav buttons move up and adds a box shadow when its hovered over */
@@ -138,10 +151,10 @@ h1 {
 }
 
 h2 {
-    font-size: 7vw;
+    font-size: 6vw;
     color: var(--white);
     text-align: center;
-    margin: 36px auto;
+    margin: 3vh auto;
     width: 100%;
 }
 
@@ -151,7 +164,7 @@ h2 {
     font-size: 1.8vw;
     text-align: center;
     line-height: 50px;
-    margin: 40px 280px 86px 280px;
+    margin: 6vh 13vw;
 }
 
 /* hides about me anchor point */

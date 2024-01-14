@@ -1,14 +1,22 @@
-import '../App.css'
+import { Link, useLocation } from 'react-router-dom';
+
+// import '../App.css'
 
 function Navigation () {
+    const currentPage = useLocation().pathname;
+
     return (
         <nav className="main-nav">
             <ul className="main-links">
                 <li>
-                    <a href="#"><button className="main-button">Home</button></a>
+                    <Link to='/' className='main-button'>
+                        Home
+                    </Link>
                 </li>
                 <li>
-                    <a href="#about-me"><button className="main-button">About Me</button></a>
+                    <Link to='/about' className='main-button'>
+                        About Me
+                    </Link>
                 </li>
                 <li>
                     <a href="#contact-anchor"><button className="main-button">Let's Connect</button></a>
