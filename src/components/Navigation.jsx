@@ -22,7 +22,9 @@ function Navigation () {
                     </Link>
                 </li>
                 <li>
-                    <a href="#projects-anchor"><button className="main-button">Projects</button></a>
+                    <Link to='/projects' className='main-button'>
+                        Projects
+                    </Link>
                 </li>
             </ul>
         </nav>

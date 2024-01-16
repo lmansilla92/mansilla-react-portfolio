@@ -3,7 +3,6 @@ export default function Socials() {
     <section>
       <section className="main-icon-container">
         <section className="contact-social-container">
-          {/* contact icons left side */}
           <a href="https://twitter.com/LuisM23">
             <img
               className="contact-icon-img"
@@ -19,7 +18,6 @@ export default function Socials() {
             />
           </a>
         </section>
-        {/* globe image, center of contact page */}
         <section className="contact-github-container">
           <a href="https://github.com/lmansilla92">
               <img
@@ -30,7 +28,6 @@ export default function Socials() {
             </a>
         </section>
         <section className="contact-social-container">
-          {/* contact icons right side */}
           <a href="https://www.facebook.com/mansilla92">
             <img
               className="contact-icon-img"
