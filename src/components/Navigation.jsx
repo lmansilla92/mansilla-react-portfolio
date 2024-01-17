@@ -22,8 +22,8 @@ function Navigation () {
                     </Link>
                 </li>
                 <li>
-                    <Link to='/projects' className='main-button'>
-                        Projects
+                    <Link to='/portfolio' className='main-button'>
+                        Portfolio
                     </Link>
                 </li>
             </ul>
