@@ -65,7 +65,7 @@ export default function Form() {
                     name='email'
                     id='email'
                     onChange={handleChange}
-                    autoComplete={placeHolder[1]}
+                    autoComplete='email'
                     required
                 ></input>
                 {inputError && <div style={{ color: 'red' }}>{inputError}</div>}
