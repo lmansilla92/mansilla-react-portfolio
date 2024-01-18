@@ -21,12 +21,24 @@ export default function Form() {
         // useState to update form data
         setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
         // check to make sure input target is email, validate email using isValidEmail function
-        if (name === 'email' && !isValidEmail(e.target.value)) {
+        if (name === 'email' && !isValidEmail(value)) {
             // useState to setInputError message
             setInputError('Invalid Email');
         } else {
             setInputError(null);
         }
+
+        // if (name === 'name' && e.target.value == '') {
+        //     setInputError('Name is required');
+        // } else {
+        //     setInputError(null);
+        // }
+
+        // if (name === 'message' && e.target.value == '') {
+        //     setInputError('Message is required');
+        // } else {
+        //     setInputError(null);
+        // }
     }
 
     // handleSubmit function

@@ -4,7 +4,7 @@ function Navigation () {
     // store current page's path name to currentPage variable
     const currentPage = useLocation().pathname;
     console.log('currentPage', currentPage);
-
+    
     return (
         <nav className="main-nav">
             <ul className="main-links">

@@ -441,16 +441,36 @@ h3 {
     .main-links {
         width: 100%;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0;
+        margin: 1px;
     }
 
     /* makes nav take up entire width */
     .main-nav {
         width: 100%;
+        display: flex;
     }
 
     .main-links li {
-        width: 25%;
+        width: 100%;
+        display: flex;
+        margin: 1px;
+    }
+    
+    .project-card {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        height: 23vw;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin: 39px 0px 33px;
+        background-size: cover;
+    }
+
+    .footer-icons {
+        width: 9vw;
     }
 
     /* sizes buttons */
@@ -458,6 +478,7 @@ h3 {
         width: 100%;
         margin: 0 auto;
         height: 11vw;
+        padding: 6px
     }
 
     .about-me-p {
@@ -479,23 +500,29 @@ h3 {
 
 /* resizes headshot */
         .head-shot {
-            height: 236px;
+            height: 33vh;
             width: 43%;
         }
 
 /* adjusts font sizes on mobile */
+    .main-description {
+        margin: 0px auto 30px auto;
+    }
+
     h1 {
-        font-size: 18.2vw;
+        font-size: 14.2vw;
     }
 
     .main-p {
         font-size: 5.5vw;
+        margin: 0px
     }
 
     /* resize buttons on main */
     .main-button {
-        height: 20vw;
-        font-size: 6vw;
+        height: 3vw;
+        font-size: 3vw;
+        text-align: center;
     }
 
     .main-links li {
