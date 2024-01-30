@@ -16,7 +16,7 @@ import Projects from './pages/Projects';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
-    {
+    { 
         path: '/',
         element: <App />,
         errorElement: <Error />,

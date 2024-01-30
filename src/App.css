@@ -11,6 +11,11 @@
 
 } */
 
+.footer-icon-img {
+    filter: invert();
+    width: 4vw;
+}
+
 .project-label-name {
     width: 100;
     font-size: 2vw;
@@ -470,7 +475,11 @@ h3 {
     }
 
     .footer-icons {
-        width: 9vw;
+        width: 19vw;
+    }
+
+    .footer-icon-img {
+        width: 12vw;
     }
 
     /* sizes buttons */
@@ -487,6 +496,16 @@ h3 {
 
     .contact-container {
         margin: 0;
+        flex-direction: column;
+    }
+
+    .contact-icon-img {
+        width: 18vw;
+
+    }
+
+    .form-container {
+        width: 60vw;
     }
 
     .top-a {
@@ -565,6 +584,7 @@ h3 {
 /* centers the icons on the mobile screen */
     .main-icon-container {
         justify-content: space-evenly;
+        height: 21rem;
     }
 
     .contact-social-container {
