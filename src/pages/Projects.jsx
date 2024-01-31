@@ -1,7 +1,7 @@
 import Project from '../components/Project'
 
 const repoUrl = [
-    'https://github.com/lmansilla92/mansilla-react-portfolio',
+    'https://github.com/CaveManEN/FlickFinder',
     'https://github.com/lildano50/DevJobs',
     'https://github.com/lmansilla92/rooster-tail',
     'https://github.com/lmansilla92/mvc-tech-blog',
