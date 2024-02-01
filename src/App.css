@@ -414,6 +414,16 @@ h3 {
     margin: 60px auto;
 }
 
+.resume-h1 {
+    color: var(--white);
+}
+
+.resume-p {
+    color: var(--white);
+    text-align: center;
+    font-size: 3.3vw;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
