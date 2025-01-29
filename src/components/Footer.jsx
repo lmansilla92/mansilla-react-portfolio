@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className='footer-container'>
-            <a className='footer-icons' href="https://www.linkedin.com/in/luis-mansilla-526781108/">
+            <a className='footer-icons' href="https://www.linkedin.com/in/luis-f-mansilla/">
                 <img
                     className="footer-icon-img"
                     alt="linkedin icon"
@@ -15,7 +15,7 @@ export default function Footer() {
                     src="github.svg"
                 />
             </a>
-            <a className='footer-icons' href="https://twitter.com/LuisM23">
+            <a className='footer-icons' href="https://x.com/l_mansilla92">
                 <img
                     className="footer-icon-img"
                     alt="twitter/x icon"
