@@ -3,7 +3,7 @@ export default function Socials() {
     <section>
       <section className="main-icon-container">
         <section className="contact-social-container">
-          <a href="https://twitter.com/LuisM23">
+          <a href="https://x.com/l_mansilla92">
             <img
               className="contact-icon-img"
               alt="twitter/x icon"
@@ -35,7 +35,7 @@ export default function Socials() {
               src="facebook.svg"
             />
           </a>
-          <a href="https://www.linkedin.com/in/luis-mansilla-526781108/">
+          <a href="https://www.linkedin.com/in/luis-f-mansilla/">
             <img
               className="contact-icon-img"
               alt="linkedin icon"
